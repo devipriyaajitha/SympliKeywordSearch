@@ -1,0 +1,2 @@
+C:\Users\devipriya.ajitha\source\repos\SympliTitleSearch\SympliTitleSearch\obj\Debug\SympliTitleSearch.csprojAssemblyReference.cache
+C:\Users\devipriya.ajitha\source\repos\SympliTitleSearch\SympliTitleSearch\obj\Debug\SympliTitleSearch.csproj.CoreCompileInputs.cache

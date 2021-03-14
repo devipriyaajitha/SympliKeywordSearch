@@ -1,0 +1,39 @@
+﻿@model SympliKeywordSearch.Models.KeywordSearchModel
+@{
+    ViewBag.Title = "Home Page";
+}
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="jumbotron">
+    </div>
+
+    <div class="row">
+        <table cellpadding="1" cellspacing="1">
+            <tr>
+                <td class="td">Keywords: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Keywords)
+                </td>
+            </tr>
+            <tr />
+            <tr />
+            <tr>
+                <td class="td">URL: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.URL)
+                </td>
+            </tr>
+
+        </table>
+        <br />
+        <br />
+
+        <input class="button" type="submit" value="Search" onclick="location.href='@Url.Action("Search", "HomeController")'" />
+        <br />
+        <br />
+        @if (Model != null)
+        {
+            <div>@Model.Result</div>
+        }
+    </div>
+}
