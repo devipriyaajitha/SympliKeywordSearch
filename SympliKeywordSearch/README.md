@@ -7,7 +7,7 @@ description: "This is a sample application that you can use to search for a keyw
 products:
 ---
 
-# Sympli Keyword SEarch MVC app
+# Sympli Keyword Search MVC app
 
 UI has following controls
 1. Keyword Textbox : Keyword to be searched
